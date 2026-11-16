@@ -21,17 +21,6 @@ El proyecto implementa el ciclo PHVA y el principio de mínimo privilegio.
 
 ---
 
-## Contenido del repositorio
-
-| Carpeta / Archivo | Descripción |
-|-------------------|-------------|
-| `artifact/confidba.html` | Panel interactivo (riesgos, tareas, controles ISO, matriz de evaluación, pruebas y segregación de funciones) |
-| `scripts/00_laboratorio.sql` | Laboratorio: usuarios separados, clasificación de datos, clon enmascarado, trigger de auditoría y políticas de auditoría unificada |
-| `scripts/01_verificacion_controles.sql` | 15 pruebas técnicas observables por un auditor externo |
-| `docs/` | Marco teórico y documentación de apoyo |
-
----
-
 ## Cómo ejecutar los scripts
 
 1. Conectarse a la PDB de Oracle (ejemplo: `XEPDB1` o `FREEPDB1`) como `SYS AS SYSDBA` o `SYSTEM`.
